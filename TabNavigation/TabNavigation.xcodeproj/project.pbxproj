@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		0384E15D1C807B590091826A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0384E15C1C807B590091826A /* main.m */; };
 		0384E1601C807B590091826A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0384E15F1C807B590091826A /* AppDelegate.m */; };
-		0384E1631C807B590091826A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0384E1621C807B590091826A /* FirstViewController.m */; };
-		0384E1661C807B590091826A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0384E1651C807B590091826A /* SecondViewController.m */; };
 		0384E1691C807B590091826A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0384E1671C807B590091826A /* Main.storyboard */; };
 		0384E16B1C807B590091826A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0384E16A1C807B590091826A /* Assets.xcassets */; };
 		0384E16E1C807B590091826A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0384E16C1C807B590091826A /* LaunchScreen.storyboard */; };
+		0384E17C1C807CA60091826A /* hei.png in Resources */ = {isa = PBXBuildFile; fileRef = 0384E1761C807CA60091826A /* hei.png */; };
+		0384E17D1C807CA60091826A /* hei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0384E1771C807CA60091826A /* hei@2x.png */; };
+		0384E17E1C807CA60091826A /* Ji.png in Resources */ = {isa = PBXBuildFile; fileRef = 0384E1781C807CA60091826A /* Ji.png */; };
+		0384E17F1C807CA60091826A /* Ji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0384E1791C807CA60091826A /* Ji@2x.png */; };
+		0384E1801C807CA60091826A /* Liao.png in Resources */ = {isa = PBXBuildFile; fileRef = 0384E17A1C807CA60091826A /* Liao.png */; };
+		0384E1811C807CA60091826A /* Liao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0384E17B1C807CA60091826A /* Liao@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +25,16 @@
 		0384E15C1C807B590091826A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0384E15E1C807B590091826A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0384E15F1C807B590091826A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0384E1611C807B590091826A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		0384E1621C807B590091826A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		0384E1641C807B590091826A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		0384E1651C807B590091826A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		0384E1681C807B590091826A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0384E16A1C807B590091826A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0384E16D1C807B590091826A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0384E16F1C807B590091826A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0384E1761C807CA60091826A /* hei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hei.png; sourceTree = "<group>"; };
+		0384E1771C807CA60091826A /* hei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hei@2x.png"; sourceTree = "<group>"; };
+		0384E1781C807CA60091826A /* Ji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ji.png; sourceTree = "<group>"; };
+		0384E1791C807CA60091826A /* Ji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ji@2x.png"; sourceTree = "<group>"; };
+		0384E17A1C807CA60091826A /* Liao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liao.png; sourceTree = "<group>"; };
+		0384E17B1C807CA60091826A /* Liao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liao@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +67,9 @@
 		0384E15A1C807B590091826A /* TabNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				0384E1751C807CA60091826A /* tabicons */,
 				0384E15E1C807B590091826A /* AppDelegate.h */,
 				0384E15F1C807B590091826A /* AppDelegate.m */,
-				0384E1611C807B590091826A /* FirstViewController.h */,
-				0384E1621C807B590091826A /* FirstViewController.m */,
-				0384E1641C807B590091826A /* SecondViewController.h */,
-				0384E1651C807B590091826A /* SecondViewController.m */,
 				0384E1671C807B590091826A /* Main.storyboard */,
 				0384E16A1C807B590091826A /* Assets.xcassets */,
 				0384E16C1C807B590091826A /* LaunchScreen.storyboard */,
@@ -82,6 +85,19 @@
 				0384E15C1C807B590091826A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0384E1751C807CA60091826A /* tabicons */ = {
+			isa = PBXGroup;
+			children = (
+				0384E1761C807CA60091826A /* hei.png */,
+				0384E1771C807CA60091826A /* hei@2x.png */,
+				0384E1781C807CA60091826A /* Ji.png */,
+				0384E1791C807CA60091826A /* Ji@2x.png */,
+				0384E17A1C807CA60091826A /* Liao.png */,
+				0384E17B1C807CA60091826A /* Liao@2x.png */,
+			);
+			path = tabicons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +157,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0384E1801C807CA60091826A /* Liao.png in Resources */,
+				0384E17F1C807CA60091826A /* Ji@2x.png in Resources */,
+				0384E17E1C807CA60091826A /* Ji.png in Resources */,
+				0384E17C1C807CA60091826A /* hei.png in Resources */,
 				0384E16E1C807B590091826A /* LaunchScreen.storyboard in Resources */,
+				0384E1811C807CA60091826A /* Liao@2x.png in Resources */,
+				0384E17D1C807CA60091826A /* hei@2x.png in Resources */,
 				0384E16B1C807B590091826A /* Assets.xcassets in Resources */,
 				0384E1691C807B590091826A /* Main.storyboard in Resources */,
 			);
@@ -154,9 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0384E1661C807B590091826A /* SecondViewController.m in Sources */,
 				0384E1601C807B590091826A /* AppDelegate.m in Sources */,
-				0384E1631C807B590091826A /* FirstViewController.m in Sources */,
 				0384E15D1C807B590091826A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
