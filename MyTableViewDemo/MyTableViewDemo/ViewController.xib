@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="tableView" destination="h1f-eE-khE" id="SLz-OX-eQn"/>
+                <outlet property="view" destination="iN0-l3-epB" id="RNx-0I-P74"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h1f-eE-khE">
+                    <rect key="frame" x="79" y="40" width="240" height="567"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Zlx-bU-WKk"/>
+                        <outlet property="delegate" destination="-1" id="50A-RJ-gF4"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="h1f-eE-khE" secondAttribute="bottom" constant="60" id="Gkq-Az-5xZ"/>
+                <constraint firstItem="h1f-eE-khE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="79" id="R5b-RK-Kbn"/>
+                <constraint firstItem="h1f-eE-khE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="kBR-er-M42"/>
+                <constraint firstAttribute="trailing" secondItem="h1f-eE-khE" secondAttribute="trailing" constant="56" id="t6s-Le-8Bu"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="204" y="146"/>
+        </view>
+    </objects>
+</document>
