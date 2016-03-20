@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031F26501C9EA81300237A56 /* AppViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 031F264E1C9EA81300237A56 /* AppViewCell.m */; };
+		031F26511C9EA81300237A56 /* AppViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031F264F1C9EA81300237A56 /* AppViewCell.xib */; };
 		03E1BC551C9E48FB00461418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E1BC541C9E48FB00461418 /* main.m */; };
 		03E1BC581C9E48FB00461418 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E1BC571C9E48FB00461418 /* AppDelegate.m */; };
 		03E1BC5B1C9E48FB00461418 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E1BC5A1C9E48FB00461418 /* ViewController.m */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		031F264D1C9EA81300237A56 /* AppViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewCell.h; sourceTree = "<group>"; };
+		031F264E1C9EA81300237A56 /* AppViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewCell.m; sourceTree = "<group>"; };
+		031F264F1C9EA81300237A56 /* AppViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppViewCell.xib; sourceTree = "<group>"; };
 		03E1BC501C9E48FB00461418 /* AppManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E1BC541C9E48FB00461418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03E1BC561C9E48FB00461418 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031F264C1C9EA81300237A56 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				031F264D1C9EA81300237A56 /* AppViewCell.h */,
+				031F264E1C9EA81300237A56 /* AppViewCell.m */,
+				031F264F1C9EA81300237A56 /* AppViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		03E1BC471C9E48FB00461418 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +78,7 @@
 		03E1BC521C9E48FB00461418 /* AppManager */ = {
 			isa = PBXGroup;
 			children = (
+				031F264C1C9EA81300237A56 /* cell */,
 				03E1BC6C1C9E4B8B00461418 /* Model */,
 				03E1BC561C9E48FB00461418 /* AppDelegate.h */,
 				03E1BC571C9E48FB00461418 /* AppDelegate.m */,
@@ -152,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031F26511C9EA81300237A56 /* AppViewCell.xib in Resources */,
 				03E1BC6B1C9E4B4400461418 /* app.plist in Resources */,
 				03E1BC631C9E48FB00461418 /* LaunchScreen.storyboard in Resources */,
 				03E1BC601C9E48FB00461418 /* Assets.xcassets in Resources */,
@@ -166,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031F26501C9EA81300237A56 /* AppViewCell.m in Sources */,
 				03E1BC5B1C9E48FB00461418 /* ViewController.m in Sources */,
 				03E1BC6F1C9E4BA200461418 /* AppInfo.m in Sources */,
 				03E1BC581C9E48FB00461418 /* AppDelegate.m in Sources */,
@@ -316,6 +334,7 @@
 				03E1BC691C9E48FB00461418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

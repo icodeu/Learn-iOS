@@ -9,6 +9,9 @@
 #import "AppInfo.h"
 
 @implementation AppInfo
+{
+    UIImage *_image;
+}
 
 - (instancetype)initWithDict:(NSDictionary *)dict {
     if (self = [super init]) {
@@ -19,6 +22,13 @@
 
 + (instancetype)appInfoWithDict:(NSDictionary *)dict {
     return [[self alloc] initWithDict:dict];
+}
+
+- (UIImage *)image {
+    if (!_image) {
+        _image = [UIImage imageNamed:self.icon];
+    }
+    return _image;
 }
 
 @end

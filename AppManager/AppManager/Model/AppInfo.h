@@ -13,7 +13,7 @@
 
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *icon;
-@property (strong, nonatomic) UIImage *image;
+@property (strong, nonatomic, readonly) UIImage *image;
 
 - (instancetype) initWithDict:(NSDictionary *)dict;
 + (instancetype) appInfoWithDict:(NSDictionary *)dict;
