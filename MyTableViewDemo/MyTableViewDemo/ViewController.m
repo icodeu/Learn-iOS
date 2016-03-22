@@ -37,6 +37,7 @@
     }
     MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reUseId];
     [cell setupCell];
+
     return cell;
 }
 
